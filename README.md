@@ -1,6 +1,6 @@
-# 📄 Multi-modal Preprocessing for Search Indexing with Azure Document Intelligence
+## 📄 Multi-modal Document Preprocessing with Azure Document Intelligence
 
-## ✨ Features
+### ✨ Features
 
 1. 📝 Generate a document parsed results using Document Intelligence, and output it in Markdown format.
 1. 🖼️ Extract figures from documents and save them as PNG images.
@@ -9,13 +9,13 @@
 1. 📊 Extract tables and convert them into Excel files.
 1. 📖 Text Chunking to markdown ouputs using `MarkdownHeaderTextSplitter`, `RecursiveContentChunker`, and `SemanticContentChunker (TBD)`
 
-## 🚀 Usage
+### 🚀 Usage
 
 ```
 python doc_intelli.py
 ```
 
-## 📚 Learn More
+### 📚 Learn More
 
 - [📘 Document Intelligence Official Samples](https://github.com/Azure-Samples/document-intelligence-code-samples): Python (v4.0) / RAG samples / Figure understanding.
 - [Build Intelligent RAG for Multimodality and Complex Document Structures](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/build-intelligent-rag-for-multimodality-and-complex-document-structure/4118184)
