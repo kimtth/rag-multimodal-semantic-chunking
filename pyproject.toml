@@ -1,0 +1,24 @@
+[project]
+name = "doc-intelli-preprocessing"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "kimtth"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "azure-ai-documentintelligence (>=1.0.2,<2.0.0)",
+    "loguru (>=0.7.3,<0.8.0)",
+    "pillow (>=11.3.0,<12.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "langchain-text-splitters (>=0.3.8,<0.4.0)",
+    "pymupdf (>=1.26.3,<2.0.0)",
+    "xlsxwriter (>=3.2.5,<4.0.0)",
+    "openai (>=1.96.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
