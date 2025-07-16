@@ -2,11 +2,12 @@
 
 ## ✨ Features
 
+1. 📝 Generate a document parsed results using Document Intelligence, and output it in Markdown format.
 1. 🖼️ Extract figures from documents and save them as PNG images.
-2. 🤖 Generate figure descriptions using Azure OpenAI Multimodal.
-3. 📝 Update markdown outputs with generated descriptions.
-4. 📊 Extract tables and convert them into Excel files.
-5. 📖 Text Chunking to markdown ouputs using `MarkdownHeaderTextSplitter`, `RecursiveContentChunker`, and `SemanticContentChunker (TBD)`
+1. 🤖 Generate figure descriptions using Azure OpenAI Multimodal.
+1. 📝 Update markdown outputs with generated descriptions.
+1. 📊 Extract tables and convert them into Excel files.
+1. 📖 Text Chunking to markdown ouputs using `MarkdownHeaderTextSplitter`, `RecursiveContentChunker`, and `SemanticContentChunker (TBD)`
 
 ## 🚀 Usage
 
