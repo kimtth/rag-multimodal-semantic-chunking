@@ -17,8 +17,8 @@ def update_figure_description(md_content: str, img_description: str, idx: int) -
     pos = 0
     for _ in range(idx + 1):
         start = md_content.find(start_tag, pos)
-        if start == -1:
-            return md_content  # not enough figures
+        if start == -1:  # Return -1 on failure.
+            return md_content
         pos = start + len(start_tag)
 
     # Find the corresponding </figure>

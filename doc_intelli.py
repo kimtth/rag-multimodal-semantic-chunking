@@ -57,12 +57,12 @@ def analyze_general_documents(
             ),
         )
     result = poller.result()
-    options.result = result
+    analyze_options.result = result
 
     # Invoke post-processing based on the options provided
     md_content = result.content if hasattr(result, "content") else ""
     with open(
-        os.path.join(output_dir_base, f"{options.file_name}_raw.md"),
+        os.path.join(output_dir_base, f"{analyze_options.file_name}_raw.md"),
         "w",
         encoding="utf-8",
     ) as f:
