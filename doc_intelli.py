@@ -34,7 +34,7 @@ output_dir_base = "output"
 
 def analyze_general_documents(
     input_file_location: str,
-    analyze_type: AnalyzeType,
+    analyze_options: AnalyzeOptions,
     output_content_format: Optional[str] = "markdown",
 ) -> AnalyzeResult:
     """
@@ -57,13 +57,9 @@ def analyze_general_documents(
             ),
         )
     result = poller.result()
+    options.result = result
 
     # Invoke post-processing based on the options provided
-    options = AnalyzeOptions()
-    options.result = result
-    options.input_file_location = input_file_location
-    options.analyze_type = analyze_type
-
     md_content = result.content if hasattr(result, "content") else ""
     with open(
         os.path.join(output_dir_base, f"{options.file_name}_raw.md"),
@@ -215,7 +211,7 @@ def analyze_general_documents_to_image_description(
                     img_base64 = base64.b64encode(buffered.getvalue()).decode()
 
                     # Generate description using Azure OpenAI Vision
-                    description = img_desc_from_azure_openai(client, img_base64)
+                    description = img_desc_from_azure_openai(client, img_base64, caption_content)
 
                     # Save the cropped image
                     image_filename = f"{file_name}_figure_{figure_idx + 1}_region_{region_idx + 1}.png"
@@ -343,9 +339,14 @@ if __name__ == "__main__":
     output_file_name = f"{file_name}_output.json"
     output_file_path = os.path.join(output_dir_base, output_file_name)
 
+    options = AnalyzeOptions()
+    options.input_file_location = input_file_path
+    options.analyze_type = [AnalyzeType.TABLE_PARSE, AnalyzeType.IMG_DESCRIPTION]
+    options.chunking_type = ChunkingType.MARKDOWN_CHUNKING
+
     result = analyze_general_documents(
         input_file_path,
-        analyze_type=[AnalyzeType.TABLE_PARSE, AnalyzeType.IMG_DESCRIPTION],
+        analyze_options=options
     )
 
     timeit_end = timeit.default_timer()
