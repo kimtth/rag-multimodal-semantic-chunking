@@ -11,7 +11,7 @@ def update_figure_description(md_content: str, img_description: str, idx: int) -
     """
     start_tag = "<figure>"
     end_tag = "</figure>"
-    insert = f'### FigureContent {os.linesep}{os.linesep} "{img_description}"'
+    insert = f'{os.linesep}{os.linesep} #### FigureContent {os.linesep}{os.linesep} "{img_description}"'
 
     # Find the start of the idx-th <figure>
     pos = 0

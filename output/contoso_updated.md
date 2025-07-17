@@ -37,13 +37,11 @@ of this poster
 ### Contoso's worldwide organization
 
 
-<figure>### FigureContent 
+<figure>
 
- "The image presents a rectangular graphic enclosed in a black border. Inside this rectangle, there is a visual element on the left side—a stylized representation of a paper sheet, slightly angled to suggest it is either being turned or has a folded corner. This graphic is depicted in a simple gray-scale style with a minimalistic yet recognizable design, emphasizing the paper's shape and folding corner.
-
-Adjacent to the paper graphic, the text reads "Article version of this poster" in a bold, blue font. The choice of blue adds a sense of clarity and a welcoming contrast against the otherwise monochrome graphic. The font style is straightforward and professional, likely intended to convey the information clearly and quickly to the reader.
-
-Overall, this image serves as a button or indicator to access an article that corresponds to the content of a poster, suggesting it is part of a digital platform or a part of a presentation where viewers can access written content related to an illustrated poster. The combination of the visual metaphor of a page with the textual information effectively communicates its intended purpose."</figure>
+ #### FigureContent 
+
+ "The image features a rectangular outline with a black border. Inside the rectangle, there is a graphic of a piece of paper with a corner folded over, suggesting a document. Beneath the graphic, the text reads "Article version of this poster" in a bold, blue font. The overall design is simple and clean, emphasizing the text while providing a visual cue with the document icon."</figure>
 
 
 ### Headquarters
@@ -119,36 +117,17 @@ be across Contoso's private network
 infrastructure.
 
 
-<figure>### FigureContent 
+<figure>
 
- "The image is a world map showcasing various locations that are categorized into three types of operational centers: Headquarters, Regional Hubs, and Satellites. These categories are visually distinguished by color-coded labels and a legend located in the lower left corner of the image.
+ #### FigureContent 
+
+ "The image presents a world map highlighting the global offices of a company named Contoso, organized according to a three-tier design. The map identifies locations categorized into three levels: Headquarters, Regional Hubs, and Satellite offices, each represented by different colors in the legend.
 
-### Key Elements:
+- **Headquarters** are marked in green and include Paris, which is the prominent office.
+- **Regional Hubs** are depicted in dark gray and feature numerous locations, such as New York, Moscow, and Dubai, indicating key operational centers that serve broader regions.
+- **Satellite offices**, shown in light blue, include various cities like Toronto, Los Angeles, and Mumbai, suggesting support or specialized functions that contribute to the company’s global presence.
 
-1. **Color Coding**:
-   - **Headquarters**: Represented by green, with "Paris" highlighted prominently.
-   - **Regional Hub**: Shown in dark gray, with several major cities designated under this label, such as New York, Munich, and Dubai.
-   - **Satellite**: Depicted in light blue, indicating additional locations that serve as satellite offices. 
-
-2. **Geographical Distribution**:
-   - The image highlights major cities across North America, Europe, Asia, and South America, displaying a global reach:
-     - **North America**: Examples include Los Angeles, Chicago, New York, and Toronto.
-     - **Europe**: Key cities include London, Paris, Munich, and Milan.
-     - **Asia**: Important locations shown include Tokyo, Beijing, Mumbai, and Singapore.
-     - **South America**: Sao Paulo is marked as a satellite location.
-
-3. **Connections**:
-   - Several lines connect cities, suggesting a network among these operational centers. The lines vary in style, with some being solid and others dotted, indicating different types of connections or relationships between locations.
-
-4. **Text Labels**:
-   - Each city is labeled clearly with its name. The font is consistent across the map, ensuring readability.
-   - Labels for the headquarters, regional hubs, and satellites convey their significance, with headquarters in green being particularly emphasized.
-   
-5. **Background**:
-   - The map is set against a light gray background, which allows the labeled cities and their color coding to stand out. 
-
-### Summary:
-Overall, the image serves as a comprehensive overview of a company's global operational structure, illustrating the hierarchy and geographical spread of its offices. The use of color coding aids in quickly identifying the nature of each office, while the connected lines emphasize the interrelations between these different locations across the globe."</figure>
+The map is visually organized, with lines connecting offices, indicating relationships or communication paths between them. Overall, it illustrates Contoso's expansive international footprint across North America, Europe, Asia, and South America."</figure>
 
 
 ### Identity
@@ -164,33 +143,26 @@ partners must leverage third-party
 identity providers as well.
 
 
-<figure>### FigureContent 
+<figure>
 
- "The image presented is a structured overview of the organizational framework of the Contoso Corporation, detailing three distinct types of office locations: Headquarters, Regional Hubs, and Satellite Offices. Each section is color-coded for clarity, with the headquarters represented in green, regional hubs in gray, and satellite offices in blue.
+ #### FigureContent 
+
+ "The image presents a structured overview of the organization and workforce of the Contoso Corporation, detailing three key types of work environments: Headquarters, Regional Hubs, and Satellite Offices.
 
-1. **Headquarters**:
-   - The section is highlighted in green and labeled "Headquarters" in bold, large white font.
-   - A description follows, stating that the Contoso Corporation headquarters is a large corporate campus located on the outskirts of Paris. It mentions the presence of numerous buildings dedicated to administrative, engineering, and manufacturing activities.
-   - The headquarters houses all of Contoso's data centers and internet operations.
-   - There is a key statistic indicating that the headquarters employs **15,000 workers**.
+1. **Headquarters**: 
+   - Located on the outskirts of Paris, the headquarters is described as a large corporate campus consisting of numerous buildings dedicated to administrative, engineering, and manufacturing functions. 
+   - It houses all of Contoso’s data centers and internet presence. 
+   - The workforce here totals around 15,000 employees.
 
-2. **Regional Hubs**:
-   - This section is visually distinguished by a gray background, with the title "Regional hubs" prominently displayed in bold white font.
-   - The description explains that regional hub offices are dedicated to serving specific global regions, employing 60% sales and support staff.
-   - It notes that each hub is connected to the Paris headquarters via a high-bandwidth WAN link.
-   - The average workforce at each regional hub is stated to be **2,000 workers**.
+2. **Regional Hubs**: 
+   - These offices cater to specific global regions, employing around 2,000 workers on average. 
+   - They consist primarily of sales and support staff (60%) and are connected to the Paris headquarters via a high-bandwidth WAN link.
 
-3. **Satellite Offices**:
-   - Displayed with a blue background, this section is titled "Satellite offices" in bold, white font.
-   - The description indicates that satellite offices comprise 80% sales and support staff and aim to maintain a physical presence for Contoso customers in major cities and suburban areas.
-   - Similar to regional hubs, each satellite office connects to a regional hub with a high-bandwidth WAN link.
-   - An average of **250 workers** is noted for each satellite office.
+3. **Satellite Offices**: 
+   - Averaging about 250 employees, satellite offices contain 80% sales and support staff.
+   - They provide on-site assistance for Contoso customers in major cities or regions and are linked to a regional hub with a high-bandwidth WAN connection.
 
-4. **Mobile Workforce Insight**:
-   - At the bottom of the figure, there is a statistic in a separate text box indicating that **25% of Contoso's workforce is mobile-only**, with a higher prevalence in the regional hubs and satellite offices.
-   - The text emphasizes that providing enhanced support for these mobile-only workers is a critical business goal for Contoso.
-
-Overall, the image presents a clear, organized depiction of Contoso's operational structure alongside relevant workforce statistics, emphasizing the scale and connectivity of its various office locations."</figure>
+Additionally, the image notes that 25% of Contoso’s workforce is mobile-only, indicating a greater proportion of mobile-only workers in regional hubs and satellite offices. The organization is focused on enhancing support for these mobile-only employees as a significant business objective."</figure>
 
 
 ### Security
@@ -203,29 +175,11 @@ implementation of data governance and
 security policies.
 
 
-<figure>### FigureContent 
+<figure>
 
- "The image features a clean and modern design focused on the theme of cloud computing and enterprise architecture.
-
-**Key elements in the image:**
-
-1. **Title/Text:**
-   - The prominent text reads "Microsoft Cloud Networking for Enterprise Architects." 
-   - The font is clear and professional, likely aimed at a corporate or technical audience. The color of the text is a shade of blue, which is often associated with trust and technology.
-
-2. **Iconography:**
-   - To the left of the text, there is a graphical representation that combines elements of cloud computing and networking.
-   - The cloud is depicted in a stylized manner, containing a simple shape that resembles a cloud outline.
-   - Within the cloud, there is an abstract representation of a network or device, possibly symbolizing servers or connections related to cloud services. This aspect highlights the topic of cloud networking.
-
-3. **Layout:**
-   - The image maintains a horizontal format, with the icon positioned to the left and the text aligned to the right. This layout is effective for readability and creates a balanced visual effect.
-   - The use of negative space around the elements contributes to a clean and sophisticated look.
-
-4. **Color Scheme:**
-   - The predominant colors are shades of blue (for the text) and gray (for the icon), which convey a professional and technical tone.
-
-Overall, the image serves as a header or main title in a document, likely indicating a section focused on Microsoft’s cloud networking solutions specifically tailored for enterprise-level architects. The clear iconography and modern design suggest an emphasis on contemporary technology and its applications in large-scale enterprise environments."</figure>
+ #### FigureContent 
+
+ "The image features a stylized design that includes a cloud symbol on the left side, accompanied by a geometric triangular shape below it. The cloud icon has a minimalist look, outlined in gray. To the right of the cloud, the text reads "Microsoft Cloud Networking for Enterprise Architects," which is presented in a bold and modern font. The text is primarily blue, emphasizing the tech-oriented theme. This design suggests a focus on cloud networking solutions specifically tailored for enterprise architects, indicating a professional and technical context."</figure>
 
 
 ### Management
@@ -243,13 +197,11 @@ September 2017
 <!-- PageFooter="@ 2016 Microsoft Corporation. All rights reserved. To send feedback about this documentation, please write to us at CloudAdopt@microsoft.com." -->
 
 
-<figure>### FigureContent 
+<figure>
 
- "The image features a titled section that prominently reads "Microsoft Cloud Identity for Enterprise Architects." The text is styled in a bold, modern font with a blue color that stands out against the lighter background, suggesting a professional and contemporary design.
-
-To the left of the text, there is an illustrative graphic that comprises a cloud shape, symbolizing cloud computing or cloud services. Below the cloud, there is an icon representing a person, which conveys the concept of user identity management within cloud services. Alongside, there is a small triangle shape, which could imply a directional or informational component. This combination of graphics is likely intended to visually reinforce the theme of identity and cloud services in relation to enterprise architecture.
-
-Overall, the combination of elements—the cloud, the person icon, and the title—suggests a focus on the integration of identity management solutions that Microsoft offers for enterprise-level IT professionals. The design elements indicate a clean and modern approach, likely aiming to appeal to an audience of enterprise architects or IT decision-makers."</figure>
+ #### FigureContent 
+
+ "The image features the text "Microsoft Cloud Identity for Enterprise Architects" prominently displayed. The text is styled in a modern, clean font, with "Microsoft Cloud Identity" in a darker blue and "for Enterprise Architects" in a lighter shade of blue. To the left of the text, there is an abstract graphic that includes a cloud symbol and a simplified human figure, suggestive of identity management and cloud computing. Below the cloud, there is a triangle shape, which may represent a directional or architectural element. The overall design is sleek and minimalistic, evoking a sense of professionalism and technological advancement."</figure>
 
 
 <!-- PageBreak -->
@@ -288,29 +240,11 @@ Contoso uses a mostly centralized on-premises IT infrastructure, with applicatio
 Paris headquarters.
 
 
-<figure>### FigureContent 
+<figure>
 
- "The image appears to be a title or header graphic related to the topic of "Microsoft Cloud Security for Enterprise Architects." 
-
-### Key Elements:
-
-1. **Text Content**: 
-   - The primary text is "Microsoft Cloud Security for Enterprise Architects," which suggests that the content is aimed at enterprise architects involved in cloud security practices or solutions. The usage of “Microsoft” indicates the focus on its cloud security offerings.
-
-2. **Font and Color**:
-   - The text is displayed in a bold, modern sans-serif font, enhancing readability and giving a professional appearance. The color of the text is a vibrant blue, which is visually appealing and in line with Microsoft's branding.
-
-3. **Imagery and Icons**:
-   - To the left of the text, there are two icons:
-     - **Cloud Icon**: Represented as a stylized cloud outline, this suggests the context of cloud computing and indicates the subject of the security practices being discussed.
-     - **Lock Icon**: There is a padlock symbol incorporated into the design, which commonly represents security and emphasizes the focus on safeguarding data and services in the cloud.
-     - **Triangle Symbol**: There’s a small triangular shape which seems to be a design element, likely implying a technical or architectural aspect closely related to enterprise systems.
-
-### Layout:
-- The icons are positioned to the left of the text, creating a cohesive visual structure where the imagery complements the title text. The arrangement is horizontal, making the information accessible and easy to associate the icons with the text.
-
-### Overall Impression:
-The graphic is clean and professional, designed to attract the attention of enterprise architects who are interested in or responsible for implementing security protocols in Microsoft’s cloud environment. The combination of text and imagery ideally communicates the core subject of cloud security in a straightforward manner."</figure>
+ #### FigureContent 
+
+ "The image features a header with the text "Microsoft Cloud Security for Enterprise Architects" displayed prominently in blue. Next to the text, there is a graphic representation that includes a cloud icon, suggesting a digital or cloud-based theme. Additionally, the design includes a lock symbol, indicating a focus on security. The overall layout is clean and professional, likely aimed at an audience interested in cloud security solutions within the Microsoft ecosystem, specifically targeted towards enterprise architects."</figure>
 
 
 In Contoso's DMZ, different sets of servers
@@ -452,30 +386,17 @@ processing needs.
 <!-- PageFooter="@ 2016 Microsoft Corporation. All rights reserved. To send feedback about this documentation, please write to us at CloudAdopt@microsoft.com." -->
 
 
-<figure>### FigureContent 
+<figure>
 
- "The image depicts the logo of Microsoft, which consists of both a colored icon and the company name.
+ #### FigureContent 
+
+ "The image features the Microsoft logo, which consists of two main components: a four-colored window design and the word "Microsoft." 
 
-1. **Icon Elements**:
-   - The icon is located on the left side of the logo and consists of four colored squares arranged in a 2x2 grid.
-   - The top left square is colored red. 
-   - The top right square is green. 
-   - The bottom left square is blue. 
-   - The bottom right square is yellow. 
-   - The squares are designed to evoke a sense of a window or grid, reflecting the company’s roots in software development, particularly in operating systems.
+1. **Colorful Window Icon**: To the left of the text, there is a grid-like icon divided into four squares. The top-left square is orange, the top-right square is green, the bottom-left square is blue, and the bottom-right square is yellow. This represents a modern interpretation of the classic Windows logo.
 
-2. **Text Elements**:
-   - Next to the icon is the text "Microsoft" in a bold, sans-serif font.
-   - The text is colored in a medium gray tone, which provides a modern and professional aesthetic. 
-   - The letters are all uppercase, except for the second letter 'i,' which is lowercase.
-   - The font style is clean and straightforward, enhancing legibility and familiarity.
+2. **Text**: To the right of the icon is the word "Microsoft" written in a simple, bold, gray font. The font is clean and modern, giving a professional and recognizable look.
 
-3. **Overall Appearance**:
-   - The overall look of the logo is contemporary, reflecting Microsoft's brand identity as a leading technology company.
-   - The combination of vibrant colors in the icon coupled with the neutral color of the text creates a balanced and eye-catching design.
-   - The logo is likely presented on a white or light background, which helps the colors stand out more prominently.
-
-This logo effectively conveys Microsoft’s identity as an innovative and accessible technology provider, maintaining a balance between professionalism and vibrancy."</figure>
+Overall, the logo presents a contemporary and corporate aesthetic closely associated with technology and innovation."</figure>
 
 
 <!-- PageBreak -->

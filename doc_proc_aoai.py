@@ -8,6 +8,7 @@ AZURE_OPENAI_DEPLOYMENT_NAME = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 def img_desc_from_azure_openai(
     client: AzureOpenAI,  # Azure OpenAI client
     img_base64: str,  # Base64 encoded image string
+    caption: str = "",  # Optional caption for the image
 ):
     try:
         response = client.chat.completions.create(
@@ -18,7 +19,8 @@ def img_desc_from_azure_openai(
                     "content": [
                         {
                             "type": "text",
-                            "text": "Analyze this figure/image from a document and provide a detailed description. Focus on key elements, any text or labels visible in the image.",
+                            # "text": "Analyze this figure/image from a document and provide a detailed description. Focus on key elements, any text or labels visible in the image.",
+                            "text": f"Describe this image (note: it has image caption: {caption}):" if caption else "Describe this image:"
                         },
                         {
                             "type": "image_url",
