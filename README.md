@@ -3,10 +3,10 @@
 ### ✨ Features
 
 1. 📝 Generate a document parsed results using Document Intelligence, and output it in Markdown format. > [output](./output/contoso_raw.md)
-1. 🖼️ Extract figures from documents and save them as PNG images. > [output](./output/contoso_figure_1_region_1.png)
+1. 🖼️ Extract figures from documents and save them as PNG images. > [output](./output/contoso_figure_2_region_1.png)
 1. 🤖 Generate figure descriptions using Azure OpenAI Multimodal.
 1. 📝 Update markdown outputs with generated descriptions. > [output](./output/contoso_updated.md)
-1. 📊 Extract tables and convert them into Excel files. > [output](./output/contoso_tables.md)
+1. 📊 Extract tables and convert them into Excel files. > [output](./output/contoso_tables.xlsx)
 1. 📖 Text Chunking to markdown ouputs using `MarkdownHeaderTextSplitter`, `RecursiveContentChunker`, and `SemanticContentChunker (TBD)` > [markdown chuck output](./output/chunks_contents.json) | [recursive chunk output](./output/chunks_recursive.json)
 
 ### 🚀 Usage
