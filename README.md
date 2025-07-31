@@ -12,7 +12,7 @@
 ### 🚀 Usage
 
 ```
-python doc_intelli.py
+python doc_intelli_workflow.py
 ```
 
 ### 📚 Learn More
