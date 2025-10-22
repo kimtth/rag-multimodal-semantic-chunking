@@ -1,6 +1,8 @@
 ## 📄 Multi-modal Document Preprocessing with Azure Document Intelligence
 
-### ✨ Features
+### ✨ Document Preprocessing Steps
+
+The input for each step is the output of the previous step.
 
 1. 📝 Generate a document parsed results using Document Intelligence, and output it in Markdown format. > [output](./output/contoso_raw.md)
 1. 🖼️ Extract figures from documents and save them as PNG images. > [output](./output/contoso_figure_2_region_1.png)
